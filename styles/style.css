@@ -1,7 +1,6 @@
 body {
     font-family: 'Manrope', sans-serif;
     width: 100%; 
-    background: #F5F5F5;
 }
 
 .container{
@@ -102,6 +101,9 @@ h1{
     width: 1150px;
 }
 
+.projects-list__item {
+    margin-bottom: 90px;
+}
 .projects-list__item-img{
     margin-bottom: 15px;
 }
