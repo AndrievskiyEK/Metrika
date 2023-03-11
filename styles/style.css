@@ -113,7 +113,7 @@ h1{
     margin-bottom: 30px; 
 }
 
-.about-us h2{    
+.about-us__header{    
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -121,7 +121,7 @@ h1{
     color: #121212;  
     margin-bottom: 30px; 
 }
-.about-us p{  
+.about-us__description{  
     margin-bottom: 30px;
     margin-top: 31px;
     margin-left: 2px;
@@ -132,7 +132,7 @@ h1{
     color: #121212;  
 }
 
-.about-us a{ 
+.about-us__link{ 
     display: block;
     width: 253px;
     height: 64px;
