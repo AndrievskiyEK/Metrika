@@ -58,10 +58,9 @@ body {
 
 .nav__link:hover {
     text-decoration: underline;
+    text-underline-offset: 7px;
     opacity: 0.5;
 }
-
-
 
 .container{
     margin: 0 auto;
