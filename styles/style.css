@@ -5,8 +5,6 @@ html{
 body {
     font-family: 'Manrope', sans-serif;
     width: 100%; 
-    background: #F5F5F5;
-
 }
 
 .container-nav{
@@ -214,8 +212,7 @@ h1{
 }
 
 .section{
-    margin: 0 auto;
-    width: 1400px;    
+    margin: 0 auto;        
     box-sizing: border-box;
     padding-left: 125px;
     padding-right: 125px;
@@ -223,6 +220,7 @@ h1{
 }
 
 .services{
+    margin: 0 auto;
     width: 1150px;
     padding-top: 151px;    
     color: #FFFFFF;
@@ -257,8 +255,7 @@ h1{
 }
 
 .project-banner{
-    margin: 0 auto;
-    width: 1400px;  /* Закомментировать чтобы картинка занимала 100% ширины экрана*/
+    margin: 0 auto;    
     height: 717px;
     background-image: url('../resources/Project_forest_lanscape.jpg');
     background-repeat: no-repeat;
@@ -347,20 +344,25 @@ h1{
     text-underline-offset: 13px;
 }
 
-.container-footer {
+.footer {
     margin: 0 auto;
-    width: 1400px;
+    width: 100%;
+}
+
+.footer__wrapper{
+    margin: 0 auto;
     height: 229px;    
     box-sizing: border-box;
+    text-align: center;
     position: relative;
-    background: #121212;
+    background: #121212; 
 }
 
 .footer__nav{
-    padding-left: 470px;
-    padding-top: 60px;
-    width: 600px;
-    height: 25px;    
+    display: block;
+    margin-right: 11px;
+    padding-top: 59px;
+    padding-bottom: 87px;   
 }
 
 .footer__link{        
@@ -391,14 +393,11 @@ h1{
 }
 
 .footer__title {
-    position: absolute;
-    left: 509px;
-    bottom: 30px;
-    color: #FFFFFF;    
-    font-style: normal;
+    margin-left: 6px;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.03em;
+    color: #FFFFFF;
     opacity: 0.5;
 }
