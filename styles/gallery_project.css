@@ -1,0 +1,22 @@
+.gallery-project{
+    margin: 0 auto;    
+    height: 717px;
+    background-image: url('../resources/Project_forest_lanscape.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+
+.gallery-project__wrapper {
+    position: absolute;
+    width: 443px;
+    left: 125px;
+    bottom: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
