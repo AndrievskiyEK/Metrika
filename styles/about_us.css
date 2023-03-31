@@ -11,7 +11,7 @@
     margin-bottom: 30px; 
 }
 .about-us__description{  
-    margin-bottom: 49px;
+    margin-bottom: 29px;
     margin-left: 2px;
     font-weight: 400;
     font-size: 45px;
@@ -21,7 +21,8 @@
 }
 
 .about-us__link{     
-    padding: 20px 40px;    
+    display: inline-block;   
+    padding: 18px 40px;    
     border: 1px solid #AD1818;
     border-radius: 5px;
     background-color: #AD1818;        
@@ -57,7 +58,7 @@
     .about-us__description{
         width: 100%;
         margin-left: -1px;
-        margin-bottom: 45px;
+        margin-bottom: 29px;
         font-size: 22px;
         line-height: 30px;
     }

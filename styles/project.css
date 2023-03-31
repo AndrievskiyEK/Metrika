@@ -1,5 +1,5 @@
 .projects-list {
-    margin-top: 169px;    
+    margin-top: 150px;    
 }
 
 .projects-list__header {
@@ -49,7 +49,7 @@
 
 @media (max-width: 1199px){
     .projects-list{
-        margin-top: 139px;
+        margin-top: 121px;
         margin-left: -2px;
     } 
     
@@ -71,7 +71,7 @@
 
 @media (max-width: 768px){
     .projects-list{
-        margin-top: 94px;
+        margin-top: 79px;
         margin-left: 0px;
     } 
 
