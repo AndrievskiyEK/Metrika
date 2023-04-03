@@ -76,28 +76,106 @@
                 <a href="#" class="btn">Смотреть все проекты</a>   
             </section> 
         </div>
-        <!-- <div class="section">
-            <div id="service" class="services">
-                <h2 class="services-list">УСЛУГИ</h2>
-                <div class="services-list__item">
-                    <img src="./resources/services_solution.png" alt="" class="services-list__item-img">
-                    <h3 class="services-list__item-wrapper">Планировочное решение — от 2500₽/м²</h3>
+        <section id="service" class="services">
+            <div class="services-inner">
+                <h2 class="services__header">УСЛУГИ</h2>
+                <div class="services__card-wrapper">
+                    <div class="services__row-card">
+                        <div class="services__collum-card">  
+                            <div class="services-list__item">
+                                <picture>
+                                    <source  media="(max-width: 768px)" srcset="./resources/services_solution_phone.jpg">  
+                                    <source  media="(max-width: 1199px)" srcset="./resources/services_solution_tablet.jpg">
+                                    <source  media="(min-width: 1200px)" srcset="./resources/services_solution.jpg"> 
+                                    <img alt="Чертеж" class="services-list__item-img">
+                                </picture>                        
+                                <p class="services-list__item-price">от 2500₽/м²</p>
+                                <h3 class="services-list__item-header">Планировочное решение</h3> 
+                            </div>                      
+                        </div>
+                        <div class="services__collum-card"> 
+                            <div class="services-list__item">
+                                <picture>
+                                    <source  media="(max-width: 768px)" srcset="./resources/services_disign_phone.jpg">  
+                                    <source  media="(max-width: 1199px)" srcset="./resources/services_disign_tablet.jpg">
+                                    <source  media="(min-width: 1200px)" srcset="./resources/services_disign.jpg"> 
+                                    <img alt="Дизайн" class="services-list__item-img">
+                                </picture>                        
+                                <p class="services-list__item-price">от 3000₽/м²</p>
+                                <h3 class="services-list__item-header">Дизайн-проект</h3> 
+                            </div>                    
+                        </div>
+                        <div class="services__collum-card">
+                            <div class="services-list__item">
+                                <picture>
+                                    <source  media="(max-width: 768px)" srcset="./resources/services_supervision_phone.jpg">  
+                                    <source  media="(max-width: 1199px)" srcset="./resources/services_supervision_tablet.jpg">
+                                    <source  media="(min-width: 1200px)" srcset="./resources/services_supervision.jpg">
+                                    <img alt="Контроль проектирования" class="services-list__item-img">
+                                </picture>                        
+                                <p class="services-list__item-price">от 30 000₽/мес</p>
+                                <h3 class="services-list__item-header">Авторский надзор</h3> 
+                            </div>                       
+                        </div>
+                        <div class="services__collum-card">
+                            <div class="services-list__item">
+                                <Picture>
+                                    <source  media="(max-width: 768px)" srcset="./resources/services_equipment_phone.jpg">  
+                                    <source  media="(max-width: 1199px)" srcset="./resources/services_equipment_tablet.jpg">
+                                    <source  media="(min-width: 1200px)" srcset="./resources/services_equipment.jpg">
+                                    <img alt="Комплектация" class="services-list__item-img">
+                                </Picture>                        
+                                <p class="services-list__item-price">5% от стоимости</p>
+                                <h3 class="services-list__item-header">Комплектация</h3> 
+                            </div>     
+                        </div>    
+                    </div>                
                 </div>
-                <div class="services-list__item">
-                    <img src="./resources/services_disign.png" alt="" class="services-list__item-img">
-                    <h3 class="services-list__item-wrapper">Дизайн-проект — от 3000₽/м²</h3>
-                </div>
-                <div class="services-list__item">
-                    <img src="./resources/services_supervision.jpg" alt="" class="services-list__item-img">
-                    <h3 class="services-list__item-wrapper">Авторский надзор — от 30 000₽ в месяц</h3>
-                </div>
-                <div class="services-list__item">
-                    <img src="./resources/services_equipment.jpg" alt="" class="services-list__item-img">
-                    <h3 class="services-list__item-wrapper">Комплектация — 5% от стоимости спецификации</h3>
-                </div>
+                <button class="services-btn">Заказать услугу</button>
             </div>
-        </div>
-        <div class="gallery-project">        
+        </section>
+        <div class="container">
+            <section class="reviews">
+                <h2 class="reviews__header">ОТЗЫВЫ</h2>
+                <div class="reviews__row-card">
+                    <div class="reviews__collum-card">  
+                        <div class="reviews-card">
+                            <h3 class="reviews-card__user">Ксения, проект 65 кв.м.</h3>
+                            <p class="reviews-card__description">
+                                Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно разместить все, что мы хотим и даже больше!
+                            </p>
+                            <p class="reviews-card__description">
+                                Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь и поделиться с Вами результатом!                                
+                            </p>
+                        </div>                      
+                    </div>
+                    <div class="reviews__collum-card">  
+                        <div class="reviews-card">
+                            <h3 class="reviews-card__user">Регина, проект 89 кв.м.</h3>
+                            <p class="reviews-card__description">
+                                Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера!
+                            </p>
+                            <p class="reviews-card__description">
+                                Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!
+                            </p>                        
+                        </div>                      
+                    </div>
+                    <div class="reviews__collum-card">  
+                        <div class="reviews-card">
+                            <h3 class="reviews-card__user">Яна, проект 120 кв.м.</h3>
+                            <p class="reviews-card__description">
+                                Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более подходящим.
+                            </p>
+                            <p class="reviews-card__description">
+                                В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое дело - ремонт!
+                            </p>                        
+                        </div>                      
+                    </div>
+                </div>             
+            </section>  
+        </div>   
+        
+        <!--div class="gallery-project">        
             <h3 class="gallery-project__wrapper">Проект &#160Двухкомнатной квартиры в ЖК Лесной Пейзаж</h3>        
         </div>
         <div class="contact-section">
