@@ -21,6 +21,7 @@
 
 .projects-list__item-img{
     display: block;
+    object-fit: cover;
     width: 100%;
     margin-bottom: 15px;    
 }
