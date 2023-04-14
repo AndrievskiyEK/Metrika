@@ -3,6 +3,9 @@
 @import "./project.css";
 @import "./service.css";
 @import "./reviews.css";
+@import "./gallery_project.css";
+@import "./contact.css";
+@import "./footer.css";
 
 html{
     scroll-behavior: smooth;
@@ -15,8 +18,7 @@ body {
 
 .container{
     margin: 0 auto;
-    width: 1200px;    
-    background: #FFFFFF;
+    width: 1200px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -35,6 +37,7 @@ body {
     letter-spacing: -0.03em;
     text-decoration: none;
     color: #AD1818;
+    transition-duration: 0.75s;
 }
 
 .btn:hover{

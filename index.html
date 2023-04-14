@@ -35,14 +35,14 @@
                     <h3 class="interior-text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</h3>        
                 </div>
             </section>                     
-            <section id="about" class="about-us">
-                <h2 class="about-us__header">О НАС</h2>
+            <section class="about-us">
+                <h2 id="about" class="about-us__header">О НАС</h2>
                 <p class="about-us__description">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
                 </p>
                 <a class="about-us__link" href="#service">Посмотреть услуги</a>
             </section>                       
-            <section id="project" class="projects-list">
-                <h2 class="projects-list__header">ПРОЕКТЫ</h2> 
+            <section class="projects-list">
+                <h2 id="project" class="projects-list__header">ПРОЕКТЫ</h2> 
                 <ul>
                     <li class="projects-list__item">
                         <picture>
@@ -78,9 +78,9 @@
                 <a href="#" class="btn">Смотреть все проекты</a>   
             </section> 
         </div>
-        <section id="service" class="services">
+        <section class="services">
             <div class="services-inner">
-                <h2 class="services__header">УСЛУГИ</h2>
+                <h2 id="service" class="services__header">УСЛУГИ</h2>
                 <div class="services__card-wrapper">
                     <div class="services__row-card">
                         <div class="services__collum-card">  
@@ -175,33 +175,83 @@
                     </div>
                 </div>             
             </section>  
-        </div>   
-        
-        <!--div class="gallery-project">        
-            <h3 class="gallery-project__wrapper">Проект &#160Двухкомнатной квартиры в ЖК Лесной Пейзаж</h3>        
         </div>
-        <div class="contact-section">
-            <div id="contacts" class="contact">
-                <h2 class="contact__item">КОНТАКТЫ</h2>
-                <p class="contact-number">
-                    <a class="contact-number__wrapper" href="tel:+79358954535">+7 935&#160 895-45-35</a>
-                </p>
-                <p class="contact-mail">
-                    <a class="contact-mail__wrapper" href="mailto:">hello@mail.com</a>
-                </p>           
-            </div>
-        </div> -->
+        <section class="gallery-project">
+            <div class="gallery">
+                <div class="container">
+                    <h2 class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</h2>
+                </div>             
+                <div class="gallery__slides">
+                    <div class="gallery__slide gallery__slide_active">
+                            <img class="gallery__slide-img" src="./resources/Project_forest_lanscape.jpg" alt="изображение проекта" >                        
+                        <div class="gallery__slide-title-wrapper">
+                            <div class="container">
+                                <h3 class="gallery__slide-title">Проект &#160Двухкомнтаной <br> квартиры в ЖК Лесной Пейзаж  
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__slide">   
+                        <img class="gallery__slide-img" src="./resources/HC_LightHouse.jpg" alt="изображение проекта" >                    
+                        <div class="gallery__slide-title-wrapper">
+                            <div class="container">
+                                <h3 class="gallery__slide-title">Проект гостиной в ЖК Маяк
+                                </h3>
+                            </div>
+                        </div>                        
+                    </div>   
+                    <div class="gallery__slide">      
+                        <img class="gallery__slide-img" src="./resources/Privat_house.jpg" alt="изображение проекта" >                  
+                        <div class="gallery__slide-title-wrapper">
+                            <div class="container">
+                                <h3 class="gallery__slide-title">Визуализация кухни-гостиной <br> в частном доме
+                                </h3>
+                            </div>
+                        </div>                        
+                    </div>  
+                    <div class="gallery__slide">  
+                        <img class="gallery__slide-img" src="./resources/HC_North_Wind.jpg" alt="изображение проекта" >                      
+                        <div class="gallery__slide-title-wrapper">
+                            <div class="container">
+                                <h3 class="gallery__slide-title">Проект кухни в скандинавском <br> стиле для ЖК Северный Ветер
+                                </h3>
+                            </div>
+                        </div>                        
+                    </div>           
+                </div>
+                <div class="container">
+                    <div class="gallery__controls">
+                        <button class="gallery__control-prev"></button>
+                        <button class="gallery__control-next"></button>
+                    </div>
+                </div>                                              
+            </div>            
+        </section>
+       <div class="container">
+            <section class="contacts">
+                <h2 id="contacts" class="contact__item">КОНТАКТЫ</h2>
+                <div class="contact-wrapper">
+                    <p class="contact-number">
+                        <a class="contact-number__arrow" href="tel:+79358954535">+7 935&#160 895-45-35</a>
+                    </p>
+                    <p class="contact-mail">
+                        <a class="contact-mail__arrow" href="mailto:">hello@mail.com</a>
+                    </p>
+                </div>       
+            </section>    
+        </div>        
     </main>
-    <!--footer class="footer">
-        <div class="footer__wrapper">
-            <nav class="footer__nav" >
-                <a href="#about" class="footer__link">О НАС</a>
-                <a href="#project" class="footer__link">ПРОЕКТЫ</a>
-                <a href="#service" class="footer__link">УСЛУГИ</a>
-                <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
-            </nav>
-            <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>
-        </div>
-    </footer>      -->
+    <footer class="footer">
+        <div class="container">            
+                <nav class="footer__nav" >
+                    <a href="#about" class="footer__link">О НАС</a>
+                    <a href="#project" class="footer__link">ПРОЕКТЫ</a>
+                    <a href="#service" class="footer__link">УСЛУГИ</a>
+                    <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
+                </nav>
+                <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>            
+        </div>        
+    </footer>
+    <script src="gallery.js"></script>
 </body>
 </html>

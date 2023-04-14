@@ -1,4 +1,4 @@
-.gallery-project{
+/* .gallery-project{
     margin: 0 auto;    
     height: 717px;
     background-image: url('../resources/Project_forest_lanscape.jpg');
@@ -19,4 +19,171 @@
     line-height: 41px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+} */
+
+.gallery-project{
+    margin-top: 126px;
+    width: 100%;
+}
+
+.gallery{
+    position: relative;
+    height: 717px;
+    color: #FFFFFF;
+}
+
+.gallery__title{   
+    position: absolute;
+    z-index: 1;
+    top: 60px; 
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+}
+
+
+.gallery__slides{
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery__slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition-duration: 1s;
+    
+}
+
+.gallery__slide_active{
+    opacity: 1;
+}
+
+.gallery__slide-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery__slide-title{
+    position: absolute;
+    bottom: 60px;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.gallery__controls{    
+    position: absolute;
+    border: none;
+    left: auto;
+    bottom: 166px;    
+    z-index: 1;
+    display: flex;    
+    gap: 25px;    
+}
+
+.gallery__control-prev,
+.gallery__control-next{
+    padding: 0px;
+    width: 24px;
+    height: 34px;
+    border: none;
+    background: none;
+    background: no-repeat;  
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+.gallery__control-prev:hover,
+.gallery__control-next:hover{
+    opacity: 1;
+}
+
+.gallery__control-prev{
+    background-image: url(../resources/Gallery_arrow.png);
+   
+}
+
+.gallery__control-next{
+    background-image: url(../resources/Gallery_arrow.png);
+    transform: rotate(180deg);
+    background-position: left bottom;
+}
+
+
+
+@media (max-width: 1199px) {
+    .gallery-project{
+        margin-top: 88px;
+    }
+
+    .gallery{        
+        height: calc(0.751*100vw - 184.3px);
+        min-height: 536px;
+    }
+
+    .gallery__title{
+        margin-top: 20px;
+        margin-left: 34px;
+        font-size: 20px;
+        line-height: 27px;
+    }    
+    
+    .gallery__slide-title{
+        margin-left: 34px;
+        bottom: 79px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .gallery__controls{
+        bottom: 155px;
+        margin-left: 35px;
+    }
+}  
+ 
+@media (max-width: 767px) {
+    .gallery-project{
+        margin-top: 58px;
+    }
+    
+    .gallery{
+        height: calc(0.219*100vw + 325.8px); 
+        min-height: 408px;       
+    }
+    
+    .gallery__title{
+        margin: 0;
+        top: 60px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .gallery__slide-title{
+        margin-left: 0px;
+        bottom: 60px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .gallery__controls{  
+        margin-left: 0px;  
+        bottom: calc(50% - 18px);    
+        width: calc(100% - 25px);
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .gallery__control-prev,
+    .gallery__control-next{
+        background-image: url(../resources/Gallery_arrow_phone.png);
+    }
 }
