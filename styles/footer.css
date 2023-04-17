@@ -16,7 +16,7 @@
 
 
 .footer__nav{   
-    margin: 0 auto;
+    margin: 0 auto;    
     margin-bottom: 87px;    
     padding-top: 60px;      
     width: 450px;
@@ -39,7 +39,6 @@
 }
 
 .footer__title {    
-    margin: 0 auto;
     text-align: center;
     font-weight: 400;
     font-size: 20px;
@@ -60,11 +59,11 @@
         height: 131px;
     }
 
-    .footer__nav{
-        padding-left: 34px;
+    .footer__nav{  
         margin-bottom: 40px;
-        width: 100%;
         padding-top: 31px;
+        justify-content: center;        
+        width: 100%;        
         gap: 30px;
     }
     
