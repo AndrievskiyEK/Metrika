@@ -43,6 +43,7 @@
     
     .interior-header{
         width: 100%;
+        max-width: 802px;
         font-size: 50px;
     }    
 
