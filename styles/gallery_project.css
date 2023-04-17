@@ -100,6 +100,7 @@
     background: no-repeat;  
     opacity: 0.5;
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .gallery__control-prev:hover,
