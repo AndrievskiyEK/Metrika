@@ -27,12 +27,6 @@
     justify-content: space-between;    
 }
 
-
-/* .contact-number{
-    margin-top: 32px;
-    width: 472px;
-} */
-
 .contact-number__arrow,
 .contact-mail__arrow{  
     position: relative; 
@@ -42,11 +36,6 @@
     color: #121212; 
     text-decoration: none;   
 }
-
-/* .contact-mail{
-    margin-top: 30px;
-    width: 412px;
-} */
 
 .contact-mail__arrow{
     opacity: 0.5;
