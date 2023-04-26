@@ -30,6 +30,7 @@
     color: #FFFFFF;  
     text-align: center;
     text-decoration: none;
+    transition-duration: 0.75s;
 }  
 
 .about-us__link:hover{
