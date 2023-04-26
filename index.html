@@ -12,21 +12,60 @@
     <link rel="icon" href="./resources/Icon_web.png" type="image/x-icon">
 </head>
 <body>
-    <!-- <header class="header">
-        <div class="container-nav">
-            <div class="nav-logo">
-                <a class="logo-link" href="/">
-                    <img class="logo" src="./resources/Logo.jpg" alt="Логотип Метрика">
-                </a>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__nav-logo">
+                    <a class="header__logo-link" href="/">
+                        <img class="header__logo" src="./resources/Logo.jpg" alt="Логотип Метрика">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li>
+                            <a href="#about" class="header__link">О НАС</a>
+                        </li>
+                        <li>
+                            <a href="#project" class="header__link">ПРОЕКТЫ</a>
+                        </li>                        
+                        <li>
+                            <a href="#service" class="header__link">УСЛУГИ</a>
+                        </li>
+                        <li>
+                            <a href="#contacts" class="header__link">КОНТАКТЫ</a> 
+                        </li>
+                    </ul>                         
+                </nav>
+                <button class="js-burger-btn burger__btn"></button>
+            </div>    
+            <div class="js-burger burger">
+                <div class="burger__content">                    
+                    <div class="burger__nav-logo">
+                        <a class="burger__logo-link" href="/">
+                            <img class="burger__logo" src="./resources/Logo.jpg" alt="Логотип Метрика">
+                        </a>
+                    </div>
+                    <nav class="burger__nav">
+                        <ul class="burger__nav-list">
+                            <a href="#about" class="burger-nav__link">О НАС</a>
+                            <a href="#project" class="burger-nav__link">ПРОЕКТЫ</a>
+                            <a href="#service" class="burger-nav__link">УСЛУГИ</a>
+                            <a href="#contacts" class="burger-nav__link">КОНТАКТЫ</a> 
+                        </ul>                    
+                    </nav>
+                    <div class="js-burger__content burger__contacts">
+                        <div class="burger__contact-title">для связи:</div>
+                        <div class="burger__contact-number">
+                            <a class="burger__contact-number__arrow" href="tel:+79358954535">+7 935&#160 895-45-35</a>
+                        </div>
+                        <div class="burger__contact-mail">
+                            <a class="burger__contact-mail__arrow" href="mailto:hello@mail.com">hello@mail.com</a>
+                        </div>
+                    </div>
+                </div>        
             </div>
-            <nav class="nav">
-                <a href="#about" class="nav__link">О НАС</a>
-                <a href="#project" class="nav__link">ПРОЕКТЫ</a>
-                <a href="#service" class="nav__link">УСЛУГИ</a>
-                <a href="#contacts" class="nav__link">КОНТАКТЫ</a> 
-            </nav>
-        </div>    
-    </header> -->
+        </div>
+    </header> 
     <main class="main">
         <section class="interior">
             <div class="container">
@@ -126,19 +165,39 @@
                         </div>
                         <div class="services__collum-card">
                             <div class="services-list__item">
-                                <Picture>
+                                <picture>
                                     <source  media="(max-width: 768px)" srcset="./resources/services_equipment_phone.jpg">  
                                     <source  media="(max-width: 1199px)" srcset="./resources/services_equipment_tablet.jpg">
                                     <source  media="(min-width: 1200px)" srcset="./resources/services_equipment.jpg">
                                     <img alt="Комплектация" class="services-list__item-img">
-                                </Picture>                        
+                                </picture>                        
                                 <p class="services-list__item-price">5% от стоимости</p>
                                 <h3 class="services-list__item-header">Комплектация</h3> 
                             </div>     
                         </div>    
                     </div>                
                 </div>
-                <button class="services-btn">Заказать услугу</button>
+                <button class="js-btn popup__btn">Заказать услугу</button>
+                <div class="js-popup popup">
+                    <div class="js-popup__content popup__content">
+                        <h2 class="popup__header">Заказать услугу</h2>
+                        <p class="popup__description">Заполните форму, мы свяжемся с вами в течение суток</p>
+                        <div class="js-popup__close-btn popup__close-btn">
+                            <picture>
+                                <source  media="(max-width: 768px)" srcset="./resources/popup_close_phone.png">  
+                                <source  media="(max-width: 1199px)" srcset="./resources/popup_close.png">   
+                                <source  media="(min-width: 1200px)" srcset="./resources/popup_close.png">                             
+                                <img alt="X" class="popup__close-img">
+                            </picture> 
+                        </div>
+                        <div class="popup__input-wrapper">
+                            <input type="text" class="popup__input" placeholder="Имя">
+                            <input type="text" class="popup__input" placeholder="Электронная почта">
+                            <input type="text" class="popup__input" placeholder="Номер телефона">
+                        </div>
+                        <button class="popup__send-btn">Отправить</button>
+                    </div>
+                </div>
             </div>
         </section>        
         <section class="reviews">
@@ -248,15 +307,19 @@
     </main>
     <footer class="footer">
         <div class="container">            
-                <nav class="footer__nav" >
-                    <a href="#about" class="footer__link">О НАС</a>
-                    <a href="#project" class="footer__link">ПРОЕКТЫ</a>
-                    <a href="#service" class="footer__link">УСЛУГИ</a>
-                    <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
+                <nav class="footer__nav">
+                    <ui class="footer__nav-list">
+                        <a href="#about" class="footer__link">О НАС</a>                        
+                        <a href="#project" class="footer__link">ПРОЕКТЫ</a>                        
+                        <a href="#service" class="footer__link">УСЛУГИ</a>                        
+                        <a href="#contacts" class="footer__link">КОНТАКТЫ</a>                        
+                    </ui>                   
                 </nav>
                 <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>            
         </div>        
     </footer>
-    <script src="gallery.js"></script>
+    <script src="./JS/gallery.js"></script>
+    <script src="./JS/popup.js"></script>
+    <script src="./JS/burger.js"></script>
 </body>
 </html>

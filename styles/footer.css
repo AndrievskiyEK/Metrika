@@ -5,24 +5,13 @@
     background: #121212; 
 }
 
-/* .footer__wrapper{
-    margin: 0 auto;
-    height: 229px;    
-    box-sizing: border-box;
-    text-align: center;
-    position: relative;
-    
-} */
-
-
-.footer__nav{   
+.footer__nav-list{   
     margin: 0 auto;    
     margin-bottom: 87px;    
     padding-top: 60px;      
     width: 450px;
-    display: flex;       
-    gap: 53px;
-         
+    display: flex;
+    gap: 53px;         
 }
 
 .footer__link{        
@@ -59,7 +48,7 @@
         height: 131px;
     }
 
-    .footer__nav{  
+    .footer__nav-list{  
         margin-bottom: 40px;
         padding-top: 31px;
         justify-content: center;        

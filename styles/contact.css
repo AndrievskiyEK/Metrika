@@ -27,14 +27,18 @@
     justify-content: space-between;    
 }
 
+.contact-number__arrow{
+    text-decoration: none; 
+}
+
+
 .contact-number__arrow,
 .contact-mail__arrow{  
     position: relative; 
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
-    color: #121212; 
-    text-decoration: none;   
+    color: #121212;      
 }
 
 .contact-mail__arrow{
