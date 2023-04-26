@@ -190,11 +190,11 @@
                                 <img alt="X" class="popup__close-img">
                             </picture> 
                         </div>
-                        <div class="popup__input-wrapper">
-                            <input type="text" class="popup__input" placeholder="Имя">
-                            <input type="text" class="popup__input" placeholder="Электронная почта">
-                            <input type="text" class="popup__input" placeholder="Номер телефона">
-                        </div>
+                        <form class="popup__input-wrapper" autocomplete="on">
+                            <input type="text" name="name" class="popup__input" placeholder="Имя">
+                            <input type="email" name="email" class="popup__input" placeholder="Электронная почта">
+                            <input type="tel" name="phone" class="popup__input" placeholder="Номер телефона">
+                        </form>                          
                         <button class="popup__send-btn">Отправить</button>
                     </div>
                 </div>
@@ -307,15 +307,15 @@
     </main>
     <footer class="footer">
         <div class="container">            
-                <nav class="footer__nav">
-                    <ui class="footer__nav-list">
-                        <a href="#about" class="footer__link">О НАС</a>                        
-                        <a href="#project" class="footer__link">ПРОЕКТЫ</a>                        
-                        <a href="#service" class="footer__link">УСЛУГИ</a>                        
-                        <a href="#contacts" class="footer__link">КОНТАКТЫ</a>                        
-                    </ui>                   
+            <nav class="footer__nav">
+                <ui class="footer__nav-list">
+                    <a href="#about" class="footer__link">О НАС</a>                        
+                    <a href="#project" class="footer__link">ПРОЕКТЫ</a>                        
+                    <a href="#service" class="footer__link">УСЛУГИ</a>                        
+                    <a href="#contacts" class="footer__link">КОНТАКТЫ</a>                        
+                </ui>                   
                 </nav>
-                <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>            
+            <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>            
         </div>        
     </footer>
     <script src="./JS/gallery.js"></script>

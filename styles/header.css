@@ -36,9 +36,6 @@
     opacity: 0.5;
 }
 
-.burger-btn{
-    display: none;
-}
 
 .burger{
     position: fixed;
@@ -140,10 +137,12 @@
 
     .burger__btn{
         display: block;
-        width: 50px;        
+        width: 100px;
+        height: 50px;        
         position: relative;
         background: none;
         border: none;
+        cursor: pointer;
     }
 
     .burger__btn::before,
@@ -153,7 +152,7 @@
         right: 0;
         top: 0;
         height: 2px;
-        width: 100%;
+        width: 50px;
         background-color: black;
     }
 
@@ -223,6 +222,10 @@
     }
 
     .burger__btn{
+        width: 60px;
+    }
+
+    .burger__btn::before{
         width: 38px;
     }
     .burger__btn::after{
